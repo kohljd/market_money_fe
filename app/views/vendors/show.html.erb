@@ -1,0 +1,15 @@
+<center>
+<h1><%= @vendor.name %></h1>
+</center>
+
+Contact Info:
+<p>name: <%= @vendor.contact_name %></p>
+<p>phone: <%= @vendor.contact_phone %></p><br>
+
+<% if @vendor.credit_accepted %>
+  <p>Credit Accepted?: YES</p>
+<% else %>
+  <p>Credit Accepted?: NO</p>
+<% end %>
+
+<p>Description: <%= @vendor.description %></p>

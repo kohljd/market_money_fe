@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "55340",
+    "type": "vendor",
+    "attributes": {
+      "name": "Saddle Up Smoothies",
+      "description": "smoothie and juice vendor",
+      "contact_name": "Trang Kling II",
+      "contact_phone": "1-866-326-0903",
+      "credit_accepted": false
+    }
+  }
+}
