@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": "322458",
+      "type": "market",
+      "attributes": {
+        "name": "14&U Farmers' Market",
+        "street": "1400 U Street NW ",
+        "city": "Washington",
+        "county": "District of Columbia",
+        "state": "District of Columbia",
+        "zip": "20009",
+        "lat": "38.9169984",
+        "lon": "-77.0320505",
+        "vendor_count": 1
+      }
+    },
+    {
+      "id": "322474",
+      "type": "market",
+      "attributes": {
+        "name": "2nd Street Farmers' Market",
+        "street": "194 second street",
+        "city": "Amherst",
+        "county": "Amherst",
+        "state": "Virginia",
+        "zip": "24521",
+        "lat": "37.583311",
+        "lon": "-79.048573",
+        "vendor_count": 35
+      }
+    },
+    {
+      "id": "322482",
+      "type": "market",
+      "attributes": {
+        "name": "39 North Marketplace",
+        "street": "Downtown Sparks Victorian Ave",
+        "city": "Sparks",
+        "county": "Washoe",
+        "state": "Nevada",
+        "zip": "89431",
+        "lat": "39.534773",
+        "lon": "-119.754962",
+        "vendor_count": 5
+      }
+    },
+    {
+      "id": "325933",
+      "type": "market",
+      "attributes": {
+        "name": "Henry County Farmers Market",
+        "street": "100 block of S Main Street",
+        "city": "New Castle",
+        "county": "Henry",
+        "state": "Indiana",
+        "zip": "47632",
+        "lat": "39.9705",
+        "lon": "-85.355",
+        "vendor_count": 13
+      }
+    },
+    {
+      "id": "322500",
+      "type": "market",
+      "attributes": {
+        "name": "9th and Grand Farmers Market",
+        "street": "304 West Grand Avenue",
+        "city": "Salina",
+        "county": "Saline",
+        "state": "Kansas",
+        "zip": "67401",
+        "lat": "38.8528359",
+        "lon": "-97.6117504",
+        "vendor_count": 6
+      }
+    }
+  ]
+}
