@@ -28,7 +28,6 @@ RSpec.describe MarketService do
       market = MarketService.get_market_info(322482)
 
       expect(market).to be_a(Hash)
-      expect(market[:data]).to be_an(Hash)
       expect(market[:data]).to be_a(Hash)
       expect(market[:data][:type]).to eq("market")
     end
