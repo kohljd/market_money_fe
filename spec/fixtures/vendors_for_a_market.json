@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "55340",
+      "type": "vendor",
+      "attributes": {
+        "name": "Saddle Up Smoothies",
+        "description": "smoothie and juice vendor",
+        "contact_name": "Trang Kling II",
+        "contact_phone": "1-866-326-0903",
+        "credit_accepted": false
+      }
+    },
+    {
+      "id": "56282",
+      "type": "vendor",
+      "attributes": {
+        "name": "Bookish Bazaar",
+        "description": "A vibrant and colorful stall offering a diverse selection of books from around the world, as well as handmade bookmarks and reading accessories.",
+        "contact_name": "Kanesha Rippin",
+        "contact_phone": "1-223-658-3770",
+        "credit_accepted": true
+      }
+    },
+    {
+      "id": "54988",
+      "type": "vendor",
+      "attributes": {
+        "name": "The Freshly Squeezed Company",
+        "description": "This vendor offers a variety of freshly squeezed juices.",
+        "contact_name": "Miki Gorczany",
+        "contact_phone": "227-606-6114",
+        "credit_accepted": false
+      }
+    },
+    {
+      "id": "54876",
+      "type": "vendor",
+      "attributes": {
+        "name": "The Sourdough Queen",
+        "description": "This vendor bakes a variety of artisanal breads using sourdough starter, from crusty baguettes to hearty whole wheat loaves.",
+        "contact_name": "Kasi Greenholt",
+        "contact_phone": "(172) 129-4294",
+        "credit_accepted": true
+      }
+    },
+    {
+      "id": "56162",
+      "type": "vendor",
+      "attributes": {
+        "name": "Colorful Comforts",
+        "description": "Colorful and cozy clothing and accessories.",
+        "contact_name": "Farrah Crist",
+        "contact_phone": "1-321-896-0792",
+        "credit_accepted": false
+      }
+    }
+  ]
+}

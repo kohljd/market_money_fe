@@ -1,6 +1,21 @@
 {
   "data": [
     {
+      "id": "322482",
+      "type": "market",
+      "attributes": {
+        "name": "39 North Marketplace",
+        "street": "Downtown Sparks Victorian Ave",
+        "city": "Sparks",
+        "county": "Washoe",
+        "state": "Nevada",
+        "zip": "89431",
+        "lat": "39.534773",
+        "lon": "-119.754962",
+        "vendor_count": 5
+      }
+    },
+    {
       "id": "322458",
       "type": "market",
       "attributes": {
@@ -28,21 +43,6 @@
         "lat": "37.583311",
         "lon": "-79.048573",
         "vendor_count": 35
-      }
-    },
-    {
-      "id": "322482",
-      "type": "market",
-      "attributes": {
-        "name": "39 North Marketplace",
-        "street": "Downtown Sparks Victorian Ave",
-        "city": "Sparks",
-        "county": "Washoe",
-        "state": "Nevada",
-        "zip": "89431",
-        "lat": "39.534773",
-        "lon": "-119.754962",
-        "vendor_count": 5
       }
     },
     {

@@ -30,16 +30,18 @@ RSpec.describe "Visitor viewing Market Index", type: :feature do
     end
 
     it "with a button to see market's Show Page" do
+      json_response_1 = File.read("spec/fixtures/market.json")
+      @json_response_2 = File.read("spec/fixtures/vendors_for_a_market.json")
+      
+      stub_request(:get, "http://localhost:3000/api/v0/markets/322482")
+        .to_return(status: 200, body: json_response_1)
+      stub_request(:get, "http://localhost:3000/api/v0/markets/322482/vendors")
+        .to_return(status: 200, body: @json_response_2)
+
       expect(page).to have_button("More Info", count: 5)
 
-      response = JSON.parse(@json_response, symbolize_names: true)
-      markets = response[:data]
       click_button "More Info", match: :first
-      expect(current_path).to eq(market_path(markets[0][:id]))
+      expect(current_path).to eq(market_path(id: 322482))
     end
   end
 end
-
-# JSON.parse(File.read("spec/fixtures/markets_list.json"), symbolize_names: true)[:data]
-# => [{:id=>"322458",
-# :type=>"market",
