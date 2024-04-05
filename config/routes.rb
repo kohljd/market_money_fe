@@ -8,4 +8,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   resources :markets, only: [:index, :show]
+  resources :vendors, only: :show
 end
+
+#         Prefix Verb URI Pattern                                Controller#Action
+#        markets GET  /markets(.:format)                         markets#index
+#         market GET  /markets/:id(.:format)                     markets#show
+#         vendor GET  /vendors/:id(.:format)                     vendors#show
