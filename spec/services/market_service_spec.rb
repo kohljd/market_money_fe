@@ -34,14 +34,14 @@ RSpec.describe MarketService do
     end
   end
 
-  describe ".get_vendors_for_a_market" do
+  describe ".get_vendors_for_market" do
     it "returns a market's vendors" do
       json_response = File.read("spec/fixtures/vendors_for_a_market.json")
       
       stub_request(:get, "http://localhost:3000/api/v0/markets/322482/vendors")
         .to_return(status: 200, body: json_response)
 
-      market_vendors = MarketService.get_vendors_for_a_market(322482)
+      market_vendors = MarketService.get_vendors_for_market(322482)
 
       expect(market_vendors).to be_a(Hash)
       expect(market_vendors[:data]).to be_an(Array)
