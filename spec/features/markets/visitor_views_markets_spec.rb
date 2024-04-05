@@ -39,7 +39,3 @@ RSpec.describe "Visitor viewing Market Index", type: :feature do
     end
   end
 end
-
-# JSON.parse(File.read("spec/fixtures/markets_list.json"), symbolize_names: true)[:data]
-# => [{:id=>"322458",
-# :type=>"market",
